@@ -20,9 +20,7 @@
     <link rel="stylesheet" href="/assets/css/share.min.css">
     <link rel="stylesheet" href="/assets/css/app.min.css">
     <link type="image/png" href="/assets/icons/favicon.png" rel="shortcut icon">
-
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+      <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   
   <meta name="google-site-verification" content="1-1ZlHoRvM0T2FqPbW2S-qLgYXN6rsn52kErlMPd_gw" />
 
@@ -55,6 +53,5 @@
       ga('send', 'pageview');
   </script>
   {% endif %}
-
        <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
 </head>
